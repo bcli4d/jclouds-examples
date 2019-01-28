@@ -22,7 +22,7 @@ For IBM SoftLayer ObjectStore in `ams01`
 
     java -Djclouds.keystone.credential-type=tempAuthCredentials -Djclouds.endpoint=https://ams01.objectstorage.softlayer.net/auth/v1.0/ -jar target/blobstore-basics-jar-with-dependencies.jar openstack-swift username apikey myfavoritecontainer https://ams01.objectstorage.softlayer.net/auth/v1.0/
   
-For Google Compute Storage
+For Google Cloud Storage
 
     java -jar target/blobstore-basics-jar-with-dependencies.jar \
          google-cloud-storage \
